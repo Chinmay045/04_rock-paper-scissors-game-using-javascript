@@ -8,6 +8,13 @@
     font-family: "font-family: 'Balsamiq Sans', sans-serif;";
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .result_images img {
     width: 100px;
 }
