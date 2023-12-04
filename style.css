@@ -8,7 +8,7 @@
     font-family: "font-family: 'Balsamiq Sans', sans-serif;";
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -16,10 +16,17 @@ body{
     background: #f6f7fb;
 }
 
-.container{
+.result_images {
+    display: flex;
+    column-gap: 7rem;
+}
+
+
+
+.container {
     padding: 2rem 7rem;
     border-radius: 14px;
-    background:#fff;
+    background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
