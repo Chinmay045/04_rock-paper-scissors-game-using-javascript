@@ -47,6 +47,7 @@ body {
 
 .option_images:hover{
     opacity:1 ;
+    cursor: pointer;
 }
 
 .option_image img{
