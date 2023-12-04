@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Krub&family=Nunito&family=Poppins&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "font-family: 'Balsamiq Sans', sans-serif;";
+}
