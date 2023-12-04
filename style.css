@@ -7,3 +7,7 @@
     box-sizing: border-box;
     font-family: "font-family: 'Balsamiq Sans', sans-serif;";
 }
+
+.result_images img {
+    width: 100px;
+}
