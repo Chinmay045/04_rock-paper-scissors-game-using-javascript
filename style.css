@@ -30,8 +30,17 @@ body {
     margin-top: 3rem;
 }
 
-.result-score{
+.result-score {
     margin-left: .1rem;
     font-size: 2rem;
     color: #333;
+}
+
+.result-selection {
+    opacity: .5s;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 3.5rem;
 }
