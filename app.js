@@ -37,6 +37,13 @@ function makeSelection(selection) {
     addSelectionResult(computerSelection, computerWinner);
     addSelectionResult(selection, yourwinner);
     console.log(computerSelection);
+
+    if(yourwinner) incrementScore(yourScoreSpan)
+    if(computerWinner) incrementScore(computerScoreSpan)
+}
+
+function incrementScore(scoreSpan){
+    scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1;
 }
 
 function addSelectionResult(selection, winner) {
@@ -46,6 +53,8 @@ function addSelectionResult(selection, winner) {
     if (winner) div.classList.add('winner')
     finalColumn.after(div);
 }
+
+
 
 function isWinner(selection, opponentSelection) {
     return selection.beats === opponentSelection.name
